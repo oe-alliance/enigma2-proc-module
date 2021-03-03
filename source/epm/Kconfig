@@ -1,0 +1,8 @@
+menu "Enigma2 proc module"
+
+config ENIGMA2PROCMODULE
+        tristate "epm module"
+        default M
+        help
+                Select to enable epm module.
+endmenu
